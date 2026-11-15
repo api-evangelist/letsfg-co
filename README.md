@@ -1,4 +1,4 @@
-# letsfg-co
+# LetsFG
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-letsfg-co is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://letsfg.co/
+LetsFG provides an AI‑agent native travel booking platform that compares airlines, hotels and booking sites—including Google Flights and Skyscanner—to present clear pricing with no hidden fees. Users can search, plan and book trips through a conversational interface, leveraging AI to find the best options and streamline the reservation process.
+
+**Areas:** Travel · AI · Booking · Flights · Hotels
+
+## LetsFG on APIs.io
+
+Everything profiled for LetsFG is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/letsfg-co/](https://apis.io/providers/letsfg-co/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [LetsFG Agents API](https://apis.io/apis/letsfg-co/letsfg-co-agents-api/) — Public developer onboarding and account operations. Register first, connect a Revolut card via /agents/connect-payment, then search and book. Top up…
+- [LetsFG Flights API](https://apis.io/apis/letsfg-co/letsfg-co-flights-api/) — Public developer flight search and booking. Requests require an API key. Search is look-to-book priced: 200 searches are free after every flight booking,…
+- [LetsFG Hotels API](https://apis.io/apis/letsfg-co/letsfg-co-hotels-api/) — Real, bookable hotel inventory at every rate type, refundable and non-refundable. Every hotel endpoint needs a connected Revolut payment method (402 without…
+- [LetsFG Sandbox API](https://apis.io/apis/letsfg-co/letsfg-co-sandbox-api/) — Sandbox endpoints — same schema as production, realistic fake data, zero credits charged. Use for integration testing. Add `sandbox/` between `v1/` and the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [LetsFG Agentic Access](https://apis.io/agentic-access/letsfg-co/letsfg-co-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentProfileResponse](https://apis.io/schemas/letsfg-co/letsfg-co-agent-profile-response/)
+- [BookingStatus](https://apis.io/schemas/letsfg-co/letsfg-co-booking-status/)
+- [DiscoverRequest](https://apis.io/schemas/letsfg-co/letsfg-co-discover-request/)
+- [FlightSearchRequest](https://apis.io/schemas/letsfg-co/letsfg-co-flight-search-request/)
+- [HotelBookRequest](https://apis.io/schemas/letsfg-co/letsfg-co-hotel-book-request/)
+- [HotelSearchResponse](https://apis.io/schemas/letsfg-co/letsfg-co-hotel-search-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Letsfg Co Context](https://apis.io/jsonld/letsfg-co/letsfg-co-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LetsFG API Rules](https://apis.io/rules/letsfg-co/letsfg-co-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [LetsFG Authentication](https://apis.io/security/letsfg-co/letsfg-co-authentication/)
+- [LetsFG Domain Security](https://apis.io/security/letsfg-co/letsfg-co-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [LetsFG Plans Pricing](https://apis.io/plans/letsfg-co/letsfg-co-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://letsfg.co/)
+- [Documentation](https://docs.letsfg.co/)
+- [Getting started](https://letsfg.co/developers/api/docs#/agents/post_agents_setup_payment)
+- [API reference](https://letsfg.co/developers/api/docs)
+- [Terms of service](https://letsfg.co/en/terms)
+- [Privacy policy](https://letsfg.co/en/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.4** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 58.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 40.0 |
+
+**Agent readiness 41.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/letsfg-co/](https://apis.io/providers/letsfg-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LetsFG: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/letsfg-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
